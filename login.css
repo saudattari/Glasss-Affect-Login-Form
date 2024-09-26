@@ -11,7 +11,7 @@ body{
 .main_container{
     width: 100%;
     height: 100vh;
-    background: url(view.jpg);
+    background: url(view3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -44,6 +44,9 @@ body{
     font-size: 14px;
     color: white;
     outline: none;
+}
+.input-box input::placeholder{
+    color: white;
 }
 .geneder-input{
     width: 100%;
